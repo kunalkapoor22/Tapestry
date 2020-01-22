@@ -1,0 +1,30 @@
+global-styling:
+  css:
+    theme:
+      css/allstar.css: {}
+      css/antoinette.css: {}
+      css/bizcasual.css: {}
+      css/bluecollar.css: {}
+      css/bogart.css: {}
+      css/cactusbloom.css: {}
+      css/dolores.css: {}
+      css/dustypetrol.css: {}
+      css/firenze.css: {}
+      css/fusion.css: {}
+      css/gerberdaisy.css: {}
+      css/haarlemmod.css: {}
+      css/icons.css: {}
+      css/ie6.css: {}
+      css/kalamata.css: {}
+      css/kobenhavn.css: {}
+      css/modhome.css: {}
+      css/modoffice.css: {}
+      css/orientexpress.css: {}
+      css/suckerfish.css: {}
+      css/techoffice.css: {}
+      css/watermelon.css: {}
+      css/woodworks.css: {}
+attributes:
+  js:
+    js/pickicons.js: {}
+    js/pickstyle.js: {}

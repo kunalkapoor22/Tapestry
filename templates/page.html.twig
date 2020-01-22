@@ -1,0 +1,213 @@
+<div id="leaderboard">
+  {{ page.leaderboard }}
+</div>
+
+<div id="header">
+  <div id="headercontainer" class="clearfix">
+    {# <div class="site-logo">
+      <a href="{{ front_page }}" title="{{ 'Home'|t }}">
+        <img src="logo.png" alt="{{ 'Home'|t }}" id="logo"/>
+      </a>
+    </div> #}
+    <div id="search">
+      {{ page.search_box }}
+    </div>
+
+    <h1 class='site-name'>
+      <a href="{{ front_page }}" title="{{ 'Home'|t }}">{{ site_name }}</a>
+    </h1>
+    <div class='site-slogan'>{{ site_slogan }}</div>
+
+    <div class="clearfix" style="line-height:0;"></div>
+    <div id="header-region-container" class="clearfix">
+      <div id="header-region" class="clearfix">
+        <div id="header-left" class="{{ headerregionwidth }}">{{ page.header_left }}</div>
+        <div id="header-center" class="width34">{{ page.header_center }}</div>
+
+        <div id="header-center" class="{{ headerregionwidth }}">{{ page.header_center }}</div>
+        <div id="header-right" class="{{ headerregionwidth }}">{{ page.header_right }}</div>
+      </div>
+    </div>
+
+    <div class="clearfix" style="line-height:0;"></div>
+    <div id="suckerfish-container">
+      <div id="suckerfishmenu">{{ page.suckerfish }}</div>
+    </div>
+  </div>
+</div>
+<div id="header-bottom" class="clearfix"></div>
+
+<div id="outer-container">
+  <div id="page-right">
+    <div id="page-left">
+
+      <div id="banner">
+        {{ page.banner }}
+      </div>
+
+      <div id="container">
+
+        <div id="breadcrumb">
+
+          {{ breadcrumb }}
+        </div>
+
+        <div id="primary">
+          {{ main_menu }}
+        </div>
+
+        <div class="clearfix"></div>
+        <div id="inside-content">
+          <div id="region1-container" class="clearfix">
+            <div id="region1">
+              <div id="user1" class="{{ region1width }}">{{ page.user1 }}</div>
+              <div id="user2" class="width34">{{ page.user2 }}</div>
+              <div id="user2" class="{{ region1width }}">{{ page.user2 }}</div>
+              <div id="user3" class="{{ region1width }}">{{ page.user3 }}</div>
+            </div>
+          </div>
+
+          <div id="region2-container" class="clearfix">
+            <div id="region2">
+              <div id="user4" class="{{ region2width }}">{{ page.user4 }}</div>
+              <div id="user5" class="width34">{{ page.user5 }}</div>
+              <div id="user5" class="{{ region2width }}">{{ page.user5 }}</div>
+
+              <div id="user6" class="{{ region2width }}">{{ page.user6 }}</div>
+            </div>
+          </div>
+          <div id="region3-container" class="clearfix">
+            <div id="region3">
+              <div id="user7" class="{{ region3width }}">{{ page.user7 }}</div>
+              <div id="user8" class="width34">{{ page.user8 }}</div>
+              <div id="user8" class="{{ region3width }}">{{ page.user8 }}</div>
+              <div id="user9" class="{{ region3width }}">{{ page.user9 }}</div>
+            </div>
+          </div>
+          <div class="clearfix">
+            <div id="sidebar-right">{{ page.sidebar_second }}</div>
+            <div id="sidebar-left">{{ page.sidebar_first }}</div>
+
+            <div id="sidebar-left">{{ page.sidebar_first }}</div>
+
+            <div id="sidebar-right">{{ page.sidebar_second }}</div>
+            <div id="mainContent">
+              <div id="mission">{{ page.mission }}</div>
+              <div id="content-top" class="clearfix">
+                <div id="content-top-left" class="{{ contenttopwidth }}">{{ page.content_top_left }}</div>
+                <div id="content-top-right" class="{{ contenttopwidth }}">{{ page.content_top_right }}</div>
+              </div>
+              <!-- title -->
+              <div id="branding" class="clearfix">
+                {{ title_prefix }}
+                <h1 class="title">{{ title }}</h1>
+                {{ title_suffix }}
+              </div>
+              <div class="tabs">{{ tabs }}</div>
+              {{ page.help }}
+              <!-- action links -->
+              <ul class="action-links">
+                {{ action_links }}
+              </ul>
+              <!-- /action links -->
+
+              {{ messages }}
+
+              {{ page.content }}
+
+              <div id="content-bottom" class="clearfix">
+
+                <div id="content-bottom-left" class="{{ contentbottomwidth }}">{{ page.content_bottom_left }}</div>
+
+                <div id="content-bottom-right" class="{{ contentbottomwidth }}">{{ page.content_bottom_right }}</div>
+
+              </div>
+
+              <!-- end #mainContent -->
+            </div>
+          </div>
+
+          {# PHP:
+         $region4count = 0;#}
+
+          {# PHP:$region4count++;#}
+
+          {# PHP:$region4count++;#}
+
+          {# PHP:$region4count++;#}
+
+          {# PHP: $region4width = 'width' . floor(99 / $region4count); #}
+          <div id="region4-container" class="clearfix">
+            <div id="region4">
+
+              <div id="user10" class="{{ region4width }}">{{ page.user10 }}</div>
+
+              <div id="user11" class="width34">{{ page.user11 }}</div>
+
+              <div id="user11" class="{{ region4width }}">{{ page.user11 }}</div>
+
+              <div id="user12" class="{{ region4width }}">{{ page.user12 }}</div>
+
+            </div>
+            <!-- /region4 -->
+          </div>
+          <!-- /region4-container -->
+
+        </div>
+        <!-- /inside-content -->
+
+        <div id="sidebar-outside">{{ page.sidebar_outside }}</div>
+
+        <div class="clearfix" style="clear: both;"></div>
+        <div class="page-bottom clearfix"></div>
+
+        <div id="mastfoot" class="clearfix">
+          {# PHP: $region5width = 'width' . floor(99 / $region5count); #}
+          <div id="region5-container" class="clearfix">
+            <div id="region5">
+
+              <div id="user13" class="{{ region5width }}">{{ page.user13 }}</div>
+
+              <div id="user14" class="width34">{{ page.user14 }}</div>
+
+              <div id="user14" class="{{ region5width }}">{{ page.user14 }}</div>
+
+              <div id="user15" class="{{ region5width }}">{{ page.user15 }}</div>
+
+            </div>
+            <!-- /region5 -->
+          </div>
+          <!-- /region5-container -->
+        </div>
+        <div id="mastfoot-bottom" class="clearfix"></div>
+
+        <div id="trailerboard">
+          <div id="footer">
+
+            <div id="footer-region-container" class="clearfix">
+              <div id="footer-region" class="clearfix">
+
+                <div id="footer-left" class="{{ footerregionwidth }}">{{ page.footer_left }}</div>
+
+                <div id="footer-center" class="width34">{{ page.footer_center }}</div>
+
+                <div id="footer-center" class="{{ footerregionwidth }}">{{ page.footer_center }}</div>
+
+                <div id="footer-right" class="{{ footerregionwidth }}">{{ page.footer_right }}</div>
+
+              </div>
+              <!-- /footer-region -->
+            </div>
+            <!-- /footer-region-container -->
+
+            <div id="footer-message">
+              {{ page.footer_message }}
+            </div>
+
+            <!-- end #footer -->
+          </div>
+
+          <script type="text/javascript">
+            <!-- Hide Script function move_in(img_name,img_src) { document[img_name].src=img_src; } function move_out(img_name,img_src) { document[img_name].src=img_src; } </script><div class="rooplelogo"> <a href="http://www.roopletheme.com"
+            onmouseover="move_in('rtlogo','{{ logorolloverpath }}')" onmouseout="move_out('rtlogo','{{ logopath }}')" title="RoopleTheme!" target="_blank"><img class="rtlogo" src="{{ logopath }}" name="rtlogo" alt="RoopleTheme"/></a> </div> </div> </div>
+            </div></div> <div id="round-right"> <div id="round-left"> <div id="round-container"> </div></div></div> </div>

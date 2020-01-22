@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * tapestry block--blockthme--xx.tpl.php
+ * to use this file you need Block Theme Module http://drupal.org/project/blocktheme
+ * for Default theme implementation to display a block see modules/block/block.tpl.php.
+ */#}
+<div class="{{ classes }} customframeblock stripebox stripe4-box-page-bg" id="block-{{ block.module }}-{{ block.delta }}"{{ attributes }}>
+    <div class="boxborder">
+    <div class="bi">
+    <div class="bt"><div></div></div>
+<div class="custom-inbox">
+  {{ title_prefix }}
+  <h2 {{ title_attributes }}>{{ block.subject }}</h2>
+  {{ title_suffix }}
+  <div {{ content_attributes }}>{{ content }}</div>
+</div>
+    <div class="bb"><div></div></div>
+    </div>
+  </div>
+</div>

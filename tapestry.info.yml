@@ -1,0 +1,48 @@
+name: Tapestry
+type: theme
+description: 'Tapestry Drupal 7 by Alyx Vance Version 2.x Fluid.'
+core: 8.x
+
+libraries:
+   - tapestry/global-styling
+   - tapestry/attributes
+
+regions:
+  leaderboard: 'Leaderboard'
+  suckerfish: 'Suckerfish Menu'
+  sidebar_first : 'Left Sidebar'
+  sidebar_second : 'Right Sidebar'
+  sidebar_outside : 'Outside Sidebar'
+  content_top_left : 'Content Top Left'
+  content_top_right : 'Content Top Right'
+  content_bottom_left : 'Content Bottom Left'
+  content_bottom_right : 'Content Bottom Right'
+  header_left : 'Header Left'
+  header_center : 'Header Center'
+  header_right : 'Header Right'
+  banner : 'Banner'
+  user1 : 'User 1'
+  user2 : 'User 2'
+  user3 : 'User 3'
+  user4 : 'User 4'
+  user5 : 'User 5'
+  user6 : 'User 6'
+  user7 : 'User 7'
+  user8 : 'User 8'
+  user9 : 'User 9'
+  user10 : 'User 10'
+  user11 : 'User 11'
+  user12 : 'User 12'
+  user13 : 'User 13'
+  user14 : 'User 14'
+  user15 : 'User 15'
+  footer_left : 'Footer Left'
+  footer_center : 'Footer Center'
+  footer_right : Footer Right'
+  footer_message : Footer Message'
+  help : 'Help'
+  mission : 'Mission'
+  content : 'Content'
+  search_box : 'Searchbox'
+  page_top : 'Page top'
+  page_bottom : 'Page bottom'

@@ -1,0 +1,14 @@
+{#
+/**
+ * @file
+ * tapestry block.tpl.php
+ * for Default theme implementation to display a block see modules/block/block.tpl.php.
+ */#}
+<div id="block-{# PHP: print $block->module .'-'. $block->delta; #}" class="{{ classes }} unstyled-block"{{ attributes }}>
+{{ title_prefix }}
+{% if block  %}
+  <h2 {{ title_attributes }}>{{ block }}</h2>
+{% endif %}
+{{ title_suffix }}
+  <div {{ content_attributes }}>{{ content }}</div>
+</div>
